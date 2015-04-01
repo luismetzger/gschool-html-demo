@@ -1,0 +1,206 @@
+* { box-sizing: border-box; }
+
+/* Clearfix */
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+/*******************************
+
+PAGE LAYOUT
+
+*********************************/
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', helvetica, sans-serif;
+}
+p {
+	font-family: 'Lato', sans-serif;
+}
+
+h2 {
+	font-family: font-family: 'Lato', sans-serif;
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif;
+}
+
+h5 {
+	font-family: 'Lato', sans-serif;
+}
+
+h6 {
+	font-family: font-family: 'Lato', sans-serif;
+}
+a {
+	
+	color:#34495e;
+	text-decoration: none;
+	transition: 333ms all ease-in-out;
+}
+
+a:hover {
+	color:#e67e22;
+}
+
+
+/*******************************
+
+Da Grid Yo! 
+
+*********************************/
+
+.row {
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto 20px;
+}
+
+.column {
+	float:left;
+	margin-right: 2%;
+}
+
+.column.two-third {
+
+	width: 65%;
+}
+
+.column.one-half {
+	width: 49%;
+}
+.column.one-third {
+	width: 32%;
+}
+.column:last-of-type {
+	margin:0;
+}
+
+
+/*******************************
+
+Header
+
+*********************************/
+
+
+header {
+	background: #ecf0f1;
+	padding: 15px;
+	
+	
+}
+
+
+/*******************************
+
+Cancel the header margin on homepage
+
+*********************************/
+
+body#home header {
+	margin-bottom: 0;
+}
+
+.logo {
+	float: left;
+	width: 65px;
+	
+}
+nav {
+	margin-top: 21px;
+}
+
+header .row {
+	margin-bottom: 0;
+}
+
+header nav {
+	float: right;
+	text-align: right;
+	margin-top: 20px;
+	display: inline-block;
+	
+}
+
+nav a {
+	margin-right: 20px;
+	font-size: 18px;
+	color: #2c3e50;
+	text-decoration: none;
+}
+
+nav a:last-of-type {
+	margin:0;
+}
+
+
+/*******************************
+
+Footer
+
+*********************************/
+
+
+footer {
+	background: #2c3e50;
+	margin-top: 60px;
+	padding: 5px 0;
+	font-size: 14px;
+	text-align: center;
+}
+
+
+/*******************************
+
+HERO
+
+*********************************/
+
+
+.hero {
+	background: #ecf0f1;
+	background-image: url('https://unsplash.imgix.net/photo-1421809313281-48f03fa45e9f?dpr=2&fit=crop&fm=jpg&h=750&q=75&w=1050');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	
+}
+
+.hero h1 {
+	margin: 0;
+	padding: 120px 0;
+	color: white;
+	text-shadow: 0 0 10px #444;
+	text-align: center;
+}
+
+
+/*******************************
+
+RESPONSIVE
+
+*********************************/
+
+
+
+
+
+
