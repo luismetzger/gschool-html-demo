@@ -9,23 +9,24 @@
 
     <!-- Link our stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <!-- google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
   </head>
 
-  <body>
+  <body id="home">
 
 	  <header>
 		  <div class="row clearfix">
 			  
 			  <!-- Our Logo -->
-			  <a href="#"><img class="logo" src="images/logo.png" /></a>
+			  <a href="index.html"><img class="logo" src="images/logo.png" /></a>
 			  
 			  <!-- Our Site Navigation -->
 			  <nav>
-				  <a href="#">Home</a>
-				  <a href="#">About</a>
-				  <a href="#">Contact</a>
+				  <a href="index.html">Home</a>
+				  <a href="about.html">About</a>
+				  <a href="contact.html">Contact</a>
 			  </nav>
 		  </div>
 	  </header>
@@ -34,13 +35,17 @@
 	  <!-- Our site's hero area -->
 	  <div class="hero">
 		  <div class="row clearfix">
-			  <h1>Hello Luis Metzger, nice to see you again.</h1>
+		  	<div class="imageHolder">
+			  	<h1>WELCOME</h1>
+		  	</div>
+				  <h1>This is my test site, enjoy what I created.</h1>
+				  
 		  </div>
 	  </div>
 	  
 	  
 	  <!-- A row of two 1/2 width columns -->
-	  <div class="row clearfix">
+	  <div class="row clearfix" id="contact-body">
 		  <div class="column one-half">
 			  <h3>Column Heading</h3>
 			  <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -53,17 +58,30 @@
 	  </div>
 	  
 	  
+	  
+	  <!-- A row with full-width columns -->
+	  <div class="row clearfix" id="contact-body-2">
+		  <div class="column">
+			  <h3>Column Heading</h3>
+			  <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+		  </div>
+		  
+	  </div>
+	  
+	  
 	  <footer>
 		  <!-- Our Site Navigation -->
 		  <nav>
-			  <a href="#">Home</a>
-			  <a href="#">About</a>
-			  <a href="#">Contact</a>
+			  <a href="index.html">Home</a>
+			  <a href="about.html">About</a>
+			  <a href="contact.html">Contact</a>
 		  </nav>
+		  
+		  <!-- Site Copyright -->
+	  	  	<p class="copyright">Copyright 2015 - Luis Metzger</p>
 	  </footer>
 	  
-	  	  <!-- Site Copyright -->
-	  	  	<p>Copyright 2015 - Luis Metzger</p>
+	  	  
 
   </body>
 </html>
